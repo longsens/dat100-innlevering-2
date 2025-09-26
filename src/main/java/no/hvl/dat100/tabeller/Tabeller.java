@@ -4,16 +4,26 @@ public class Tabeller {
 
 	// a)
 	public static void skrivUt(int[] tabell) {
+        System.out.print("[");
         for (int i = 0; i < tabell.length; i++) {
             System.out.print(tabell[i] + " ");
         }
+        System.out.print("]");
+        System.out.println();
 	}
-
 	// b)
 	public static String tilStreng(int[] tabell) {
-
-		// TODO
-		throw new UnsupportedOperationException("Metoden tilStreng ikke implementert");
+        StringBuilder x = new StringBuilder("[");
+        for (int i = 0; i < tabell.length; i++) {
+            if (i == tabell.length-1) {
+                x.append(String.valueOf(tabell[i]));
+            } else {
+                x.append(String.valueOf(tabell[i]));
+                x.append(",");
+            }
+        }
+        x.append("]");
+        return x.toString();
 	}
 
 	// c)
