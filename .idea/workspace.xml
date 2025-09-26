@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="37e507fb-855c-4c22-a001-747fec93cc10" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/no/hvl/dat100/tabeller/Tabeller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/no/hvl/dat100/tabeller/Tabeller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test.iml" afterDir="false" />
-    </list>
+    <list default="true" id="df54865c-4efa-461b-80d0-94299b78f4f5" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,10 +14,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 2
+  "associatedIndex": 3
 }]]></component>
-  <component name="ProjectId" id="33EXUWdjPHYMhR6k0lSCeU7bdsL" />
+  <component name="ProjectId" id="33EL7a8sY3hpEOSlYOsVZJEirAs" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -33,7 +24,11 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.MatriserEnhetsTests.testSkrivUt.executor": "Run",
     "JUnit.TabellerEnhetsTests.testSkrivUt.executor": "Run",
+    "JUnit.TabellerEnhetsTests.testSummer.executor": "Run",
+    "JUnit.TabellerEnhetsTests.testfinnesTall.executor": "Run",
+    "JUnit.TabellerEnhetsTests.testposisjonTall.executor": "Run",
     "JUnit.TabellerEnhetsTests.testtilStreng.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
@@ -42,10 +37,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TabellerEnhetsTests.testfinnesTall">
+  <component name="RunManager" selected="JUnit.TabellerEnhetsTests.testposisjonTall">
     <configuration name="TabellerEnhetsTests.testSkrivUt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -62,6 +63,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TabellerEnhetsTests.testSummer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hvl.dat100.tabeller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.hvl.dat100.tabeller" />
+      <option name="MAIN_CLASS_NAME" value="no.hvl.dat100.tabeller.TabellerEnhetsTests" />
+      <option name="METHOD_NAME" value="testSummer" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TabellerEnhetsTests.testfinnesTall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -73,6 +90,22 @@
       <option name="PACKAGE_NAME" value="no.hvl.dat100.tabeller" />
       <option name="MAIN_CLASS_NAME" value="no.hvl.dat100.tabeller.TabellerEnhetsTests" />
       <option name="METHOD_NAME" value="testfinnesTall" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TabellerEnhetsTests.testposisjonTall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hvl.dat100.tabeller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.hvl.dat100.tabeller" />
+      <option name="MAIN_CLASS_NAME" value="no.hvl.dat100.tabeller.TabellerEnhetsTests" />
+      <option name="METHOD_NAME" value="testposisjonTall" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -96,7 +129,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TabellerEnhetsTests.testposisjonTall" />
         <item itemvalue="JUnit.TabellerEnhetsTests.testfinnesTall" />
+        <item itemvalue="JUnit.TabellerEnhetsTests.testSummer" />
         <item itemvalue="JUnit.TabellerEnhetsTests.testtilStreng" />
         <item itemvalue="JUnit.TabellerEnhetsTests.testSkrivUt" />
       </list>
@@ -106,17 +141,22 @@
     <attachedChunks>
       <set>
         <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
+        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
       </set>
     </attachedChunks>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="37e507fb-855c-4c22-a001-747fec93cc10" name="Changes" comment="" />
-      <created>1758883223526</created>
+      <changelist id="df54865c-4efa-461b-80d0-94299b78f4f5" name="Changes" comment="" />
+      <created>1758877121803</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1758883223526</updated>
+      <updated>1758877121803</updated>
+      <workItem from="1758877123019" duration="8022000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
