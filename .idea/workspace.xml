@@ -29,6 +29,7 @@
     "JUnit.TabellerEnhetsTests.testSummer.executor": "Run",
     "JUnit.TabellerEnhetsTests.testfinnesTall.executor": "Run",
     "JUnit.TabellerEnhetsTests.testposisjonTall.executor": "Run",
+    "JUnit.TabellerEnhetsTests.testreverser.executor": "Run",
     "JUnit.TabellerEnhetsTests.testtilStreng.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Repository.Attach.Annotations": "false",
@@ -46,23 +47,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TabellerEnhetsTests.testposisjonTall">
-    <configuration name="TabellerEnhetsTests.testSkrivUt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="no.hvl.dat100.tabeller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="no.hvl.dat100.tabeller" />
-      <option name="MAIN_CLASS_NAME" value="no.hvl.dat100.tabeller.TabellerEnhetsTests" />
-      <option name="METHOD_NAME" value="testSkrivUt" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.TabellerEnhetsTests.testreverser">
     <configuration name="TabellerEnhetsTests.testSummer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -111,6 +96,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TabellerEnhetsTests.testreverser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hvl.dat100.tabeller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.hvl.dat100.tabeller" />
+      <option name="MAIN_CLASS_NAME" value="no.hvl.dat100.tabeller.TabellerEnhetsTests" />
+      <option name="METHOD_NAME" value="testreverser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TabellerEnhetsTests.testtilStreng" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -129,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TabellerEnhetsTests.testreverser" />
         <item itemvalue="JUnit.TabellerEnhetsTests.testposisjonTall" />
         <item itemvalue="JUnit.TabellerEnhetsTests.testfinnesTall" />
         <item itemvalue="JUnit.TabellerEnhetsTests.testSummer" />
         <item itemvalue="JUnit.TabellerEnhetsTests.testtilStreng" />
-        <item itemvalue="JUnit.TabellerEnhetsTests.testSkrivUt" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +153,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1758877121803</updated>
-      <workItem from="1758877123019" duration="8022000" />
+      <workItem from="1758877123019" duration="9764000" />
     </task>
     <servers />
   </component>
