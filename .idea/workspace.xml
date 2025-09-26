@@ -37,6 +37,7 @@
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.MatriserEnhetsTests.testSkaler.executor": "Run",
     "JUnit.MatriserEnhetsTests.testSkrivUt.executor": "Run",
+    "JUnit.MatriserEnhetsTests.testerLik.executor": "Run",
     "JUnit.MatriserEnhetsTests.testtilStreng.executor": "Run",
     "JUnit.TabellerEnhetsTests.erSortert.executor": "Run",
     "JUnit.TabellerEnhetsTests.testSkrivUt.executor": "Run",
@@ -53,7 +54,7 @@
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.MatriserEnhetsTests.testSkaler">
+  <component name="RunManager" selected="JUnit.MatriserEnhetsTests.testerLik">
     <configuration name="MatriserEnhetsTests.testSkaler" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -86,6 +87,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MatriserEnhetsTests.testerLik" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="no.hvl.dat100.matriser.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="no.hvl.dat100.matriser" />
+      <option name="MAIN_CLASS_NAME" value="no.hvl.dat100.matriser.MatriserEnhetsTests" />
+      <option name="METHOD_NAME" value="testerLik" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MatriserEnhetsTests.testtilStreng" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test" />
       <extension name="coverage">
@@ -97,22 +114,6 @@
       <option name="PACKAGE_NAME" value="no.hvl.dat100.matriser" />
       <option name="MAIN_CLASS_NAME" value="no.hvl.dat100.matriser.MatriserEnhetsTests" />
       <option name="METHOD_NAME" value="testtilStreng" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TabellerEnhetsTests.erSortert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="no.hvl.dat100.tabeller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="no.hvl.dat100.tabeller" />
-      <option name="MAIN_CLASS_NAME" value="no.hvl.dat100.tabeller.TabellerEnhetsTests" />
-      <option name="METHOD_NAME" value="erSortert" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MatriserEnhetsTests.testerLik" />
         <item itemvalue="JUnit.MatriserEnhetsTests.testSkaler" />
         <item itemvalue="JUnit.MatriserEnhetsTests.testtilStreng" />
         <item itemvalue="JUnit.MatriserEnhetsTests.testSkrivUt" />
         <item itemvalue="JUnit.TabellerEnhetsTests.testsettSammen" />
-        <item itemvalue="JUnit.TabellerEnhetsTests.erSortert" />
       </list>
     </recent_temporary>
   </component>
